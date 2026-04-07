@@ -9,53 +9,22 @@
             {
                 "module_number": "1",
                 "origin_local_video": "local/video",
-                "banner_video": "/videos/folder_name/video.mp4",
+                "banner_video": "/videos/folder_name/JairS.mp4",
                 "content": "",
                 "module_title": "introduccion"
-            },
-            {
-                "module_number": "2",
-                "origin_local_video": "local/video",
-                "banner_video": "/videos/folder_name/video1.mp4",
-                "content": "",
-                "module_title": "basico"
-            },
-            {
-                "module_number": "3",
-                "origin_local_video": "local/folder_name/video",
-                "banner_video": "/videos/folder_name/video2.mp4",
-                "content": "",
-                "module_title": "practica"
             }
         ]
     },
     {
         "id_course": "23",
         "title": "Tecnica vocal",
-        "folder_name": "tecnica_vocal",
-        "origin_local_image": "folder_name/local/",
-        "banner_image": "/images/folder_name/image.jpg",
+        "banner_image": "/images/tecnica_vocal/banner3.png",
         "videos": [
             {
                 "module_number": "1",
-                "origin_local_video": "local/video",
-                "banner_video": "/videos/folder_name/video.mp4",
-                "content": "",
+                "banner_video": "/videos/tecnica_vocal/jair-santrich.mp4",
+                "content": "prueba de contenido",
                 "module_title": "introduccion"
-            },
-            {
-                "module_number": "2",
-                "origin_local_video": "local/video",
-                "banner_video": "/videos/folder_name/video1.mp4",
-                "content": "",
-                "module_title": "basico"
-            },
-            {
-                "module_number": "3",
-                "origin_local_video": "local/folder_name/video",
-                "banner_video": "/videos/folder_name/video2.mp4",
-                "content": "",
-                "module_title": "practica"
             }
         ]
     }
