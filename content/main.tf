@@ -42,6 +42,9 @@ resource "aws_dynamodb_table_item" "course_items" {
     "id"    = { S = each.value.id_course }
     "title"        = { S = each.value.title }
     "banner_image" = { S = each.value.banner_image }
+    "content" = { S = each.value.content}
+    "createdAt" = { S = formatdate("YYYY-MM-DD'T'HH:mm:ssZZZZZ", timestamp()) }
+    "updatedAt" = { S = formatdate("YYYY-MM-DD'T'HH:mm:ssZZZZZ", timestamp()) }
     "videos" = {
       L = [
         for v in each.value.videos : {
