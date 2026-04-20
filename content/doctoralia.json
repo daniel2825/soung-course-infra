@@ -1,0 +1,20 @@
+[
+    {
+        "id_course": "zdoctoralia1234",
+        "title": "doctoralia",
+        "content":"",
+        "createdAt":"2026-04-13T19:24:00.000Z",
+        "updatedAt":"2026-04-13T19:24:00.000Z",
+        "origin_local_image": "folder_name/local/",
+        "banner_image": "images/doctoralia/doctoralia.jpeg",
+        "videos": [
+            {
+                "module_number": "1",
+                "origin_local_video": "local/video",
+                "banner_video": "videos/doctoralia/JairS.mp4",
+                "content": "",
+                "module_title": "introduccion"
+            }
+        ]
+    }
+]

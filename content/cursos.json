@@ -2,17 +2,16 @@
     {
         "id_course": "sadf",
         "title": "resonancia",
-        "folder_name": "resonancia",
         "content":"",
         "createdAt":"2026-04-13T19:24:00.000Z",
         "updatedAt":"2026-04-13T19:24:00.000Z",
-        "origin_local_image": "folder_name/local/",
-        "banner_image": "/images/folder_name/image.jpg",
+        "origin_local_image": "resonancia/local/",
+        "banner_image": "images/resonancia/bannerjair.jpg",
         "videos": [
             {
                 "module_number": "1",
                 "origin_local_video": "local/video",
-                "banner_video": "/videos/folder_name/JairS.mp4",
+                "banner_video": "videos/resonancia/JairS.mp4",
                 "content": "",
                 "module_title": "introduccion"
             }
@@ -24,11 +23,11 @@
         "content": "",
         "createdAt":"2026-04-13T19:24:00.000Z",
         "updatedAt":"2026-04-13T19:24:00.000Z",
-        "banner_image": "/images/tecnica_vocal/banner3.png",
+        "banner_image": "images/tecnica_vocal/banner3.png",
         "videos": [
             {
                 "module_number": "1",
-                "banner_video": "/videos/tecnica_vocal/jair-santrich.mp4",
+                "banner_video": "videos/tecnica_vocal/jair-santrich.mp4",
                 "content": "prueba de contenido",
                 "module_title": "introduccion"
             }
