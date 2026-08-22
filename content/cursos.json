@@ -7,27 +7,30 @@
         "updatedAt":"2026-04-13T19:24:00.000Z",
         "origin_local_image": "resonancia/local/",
         "banner_image": "images/resonancia/bannerjair.jpg",
-        "videos": [
+        "modules": [
             {
                 "module_number": "1",
                 "origin_local_video": "local/video",
                 "banner_video": "videos/resonancia/JairS.mp4",
                 "content": "",
-                "module_title": "introduccion"
+                "module_title": "introduccion",
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
             },
             {
                 "module_number": "2",
                 "origin_local_video": "local/video",
                 "banner_video": "videos/resonancia/bikina.mp4",
                 "content": "",
-                "module_title": "concepto"
+                "module_title": "concepto",
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
             },
             {
                 "module_number": "3",
                 "origin_local_video": "local/video",
                 "banner_video": "videos/resonancia/llorando.mp4",
                 "content": "",
-                "module_title": "practica"
+                "module_title": "practica",
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
             }
         ]
     },
@@ -38,12 +41,13 @@
         "createdAt":"2026-04-13T19:24:00.000Z",
         "updatedAt":"2026-04-13T19:24:00.000Z",
         "banner_image": "images/tecnica_vocal/banner3.png",
-        "videos": [
+        "modules": [
             {
                 "module_number": "1",
                 "banner_video": "videos/tecnica_vocal/jair-santrich.mp4",
                 "content": "prueba de contenido",
-                "module_title": "introduccion"
+                "module_title": "introduccion tecnica vocal",
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
             }
         ]
     }

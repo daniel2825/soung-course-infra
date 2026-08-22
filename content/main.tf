@@ -4,7 +4,6 @@ locals {
   amplify_bucket_name = "amplify-d1q7yw091jwae4-ma-songcoursecontentbucketc-0naz9if3cy8t" 
   amplify_table_name  = "SongCourseContent-uvelwqazbzg6fciansiablhufq-NONE" # Nombre real en la consola de AWS
   
-  # Carga de datos del JSON
   json_data = jsondecode(file("${path.module}/cursos.json"))
   courses_map = { for course in local.json_data : course.id_course => course }
 }
@@ -45,9 +44,9 @@ resource "aws_dynamodb_table_item" "course_items" {
     "content" = { S = each.value.content}
     "createdAt" = { S = formatdate("YYYY-MM-DD'T'HH:mm:ssZZZZZ", timestamp()) }
     "updatedAt" = { S = formatdate("YYYY-MM-DD'T'HH:mm:ssZZZZZ", timestamp()) }
-    "videos" = {
+    "modules" = {
       L = [
-        for v in each.value.videos : {
+        for v in each.value.modules : {
           M = {
             "module_number" : { S = v.module_number },
             "module_title"  : { S = v.module_title },
