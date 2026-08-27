@@ -14,7 +14,8 @@
                 "banner_video": "videos/resonancia/JairS.mp4",
                 "content": "",
                 "module_title": "introduccion",
-                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]",
+                "color": "#F1f2f6"
             },
             {
                 "module_number": "2",
@@ -22,7 +23,8 @@
                 "banner_video": "videos/resonancia/bikina.mp4",
                 "content": "",
                 "module_title": "concepto",
-                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]",
+                "color": "#eccc68"
             },
             {
                 "module_number": "3",
@@ -30,7 +32,8 @@
                 "banner_video": "videos/resonancia/llorando.mp4",
                 "content": "",
                 "module_title": "practica",
-                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]",
+                "color": "#2c748aff"
             }
         ]
     },
@@ -47,7 +50,8 @@
                 "banner_video": "videos/tecnica_vocal/jair-santrich.mp4",
                 "content": "prueba de contenido",
                 "module_title": "introduccion tecnica vocal",
-                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]"
+                "frecuency_example": "[{frequency: 172.31285988483685, note: F3, noteLetter: F, noteOctave: 3, second: 1}]",
+                "color": "#ff7f50"
             }
         ]
     }

@@ -52,6 +52,7 @@ resource "aws_dynamodb_table_item" "course_items" {
             "module_title"  : { S = v.module_title },
             "content"       : { S = v.content }
             "banner_video"  : { S = v.banner_video }
+            "color"         : { S = v.color}
           }
         }
       ]
